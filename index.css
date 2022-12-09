@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contain {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  margin: 20px auto;
+  background-color: antiquewhite;
+  border: 1px solid black;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+.header button {
+  width: 100px;
+  height: 25px;
+  border: none;
+  outline: none;
+  color: whitesmoke;
+}
+.header .btn1 {
+  background-color: aquamarine;
+}
+.header .btn2 {
+  background-color: aqua;
+}
+.header .btn3 {
+  background-color: chocolate;
+}
+.header .btn4 {
+  background-color: red;
+}
+.header span {
+  font-weight: 600;
+}
